@@ -8,7 +8,7 @@
 <view class='itemH'>
   <text style='margin-left:30rpx;'>推荐</text>
 </view>
-<view class='detail'>
+<view class='detail' bindtap='getDetail'>
   <image src="{{banner[0]}}" class='left'></image>
   <view class='right'>
     <view class='name'>商品名称</view>
@@ -18,7 +18,7 @@
 </view>
 <!--11  -->
 <view class='blank'></view>
-<view class='itemH'>
+<view class='itemH' bindtap='more'>
   <text style='margin-left:30rpx;'>发现</text>
   <view class='more'>
     <text class='moretext'>更多</text>

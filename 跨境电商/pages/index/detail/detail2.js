@@ -1,14 +1,11 @@
-// pages/index/index.js
+// pages/index/detail/detail2.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    banner:[
-      "http://pic.58pic.com/58pic/13/68/03/86S58PIC26b_1024.jpg",
-      "http://pic.58pic.com/58pic/13/68/03/86S58PIC26b_1024.jpg"
-    ]
+  
   },
 
   /**
@@ -65,15 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  more:function(){
-    wx.navigateTo({
-      url: '/pages/index/find/find',
-    })
-  },
-  getDetail:function(){
-    wx.navigateTo({
-      url: '/pages/index/detail/detail',
-    })
   }
 })

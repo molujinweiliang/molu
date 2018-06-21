@@ -60,8 +60,8 @@ page{
   height: 190rpx;
   float: right;
   margin-right: 30rpx;
-  font-size: 36rpx;
-  margin-top: 35rpx;
+  font-size: 32rpx;
+  margin-top: 40rpx;
 }
 .name1 {
   color: #000;
@@ -76,4 +76,5 @@ page{
 .price1{
   color: #808080;
   margin-top: 30rpx;
+  font-size: 28rpx;
 }
