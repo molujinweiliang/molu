@@ -1,0 +1,27 @@
+<scroll-view scroll-x class='scroll1'>
+  <view class='box'>
+    <block wx:for="{{fenlei}}" wx:key>
+      <view class='fenleiitem {{index==activeIndex?"active":""}}' data-id='{{item.id}}' data-index='{{index}}' bindtap='choose'>{{item.name}}</view>
+    </block>
+  </view>
+  <view class='borderB' style='margin-left:{{52+187.5*activeIndex}}rpx;'></view>
+</scroll-view>
+<scroll-view srcoll-y>
+  <view style='width:100%;height:100rpx;'></view>
+  <view class='blank'></view>
+  <view class='detail'>
+    <image src="{{banner[0]}}" class='left'></image>
+    <view class='right'>
+      <view class='name'>商品名称</view>
+      <view class='msg'>这里显示商品简介这里显示商品简介这里显示商品简介这里显示商品简介</view>
+      <view class='price'>￥779</view>
+    </view>
+  </view>
+  <view class='detail'>
+    <image src="{{banner[0]}}" class='left1'></image>
+    <view class='right1'>
+      <view class='name1'>互联网产品设计规范互联网产品设计规范互联网产品设计规范</view>
+      <view class='price1'>李速达</view>
+    </view>
+  </view>
+</scroll-view>

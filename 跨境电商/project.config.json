@@ -1,0 +1,55 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.94",
+	"appid": "wxc59771daf7a81c10",
+	"projectname": "%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "详情",
+					"pathName": "pages/index/detail/detail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "产品分类",
+					"pathName": "pages/product/product",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "发现",
+					"pathName": "pages/index/find/find"
+				}
+			]
+		}
+	}
+}

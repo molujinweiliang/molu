@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/my/my",
+    "pages/index/detail/detail",
+    "pages/index/find/find"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#60AAFF",
+    "navigationBarTitleText": "跨境电商",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#60AAFF",
+    "borderStyle": "white",
+    "selectedColor": "#e94339",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/un-select@2x.png",
+        "selectedIconPath": "/images/select@2x.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品",
+        "iconPath": "/images/p-unselect@2x.png",
+        "selectedIconPath": "/images/p-select@2x.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/my-unselect@2x.png",
+        "selectedIconPath": "/images/my-select@2x.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+<view class='thumb'>
+  <image src='{{thumb}}'></image>
+</view>
+<view class='box'>
+  <view class='containerFluence'>
+    <view class='name'>bfs氨糖软骨素氨基酸bfs氨糖软骨素氨基酸bfs氨糖软骨素氨基酸bfs氨糖软骨素氨基酸bfs氨糖软骨素氨基酸</view>
+    <view class='price'><text style='font-size:34rpx;margin-right:14rpx;'>￥</text>399.00</view>
+    <view class='free'>
+      <text>税费：商家承担</text>
+      <text>运费：包邮</text>
+      <text>发货地：香港</text>
+    </view>
+  </view>
+</view>
+<view class='shuoming'>产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明产品介绍说明</view>
+<view class='comment'>
+  <view class='line'></view>
+  <view class='proCom'>商品评论</view>
+  <view class='line' style='margin-left: 26rpx;'></view>
+</view>
+<view class='commentItem'>
+  <view class='commentContainer'>
+    <view class='header'>
+      <image src='{{thumb}}'></image>
+      <text class='nickname'>科特勒夫斯基</text>
+      <text class='time'>2017-08-09</text>
+    </view>
+    <view class='content'>
+      牛博士钙片来源于新西兰奶源地牛博士钙片来源于新西兰奶源地牛博士钙片来源于新西兰奶源地牛博士钙片来源于新西兰奶源地牛博士钙片来源于新西兰奶源地牛博士钙片来源于新西兰奶源地
+    </view>
+  </view>
+</view>
+<view class='commentItem'>
+  <view class='commentContainer'>
+    <view class='header'>
+      <image src='{{thumb}}'></image>
+      <text class='nickname'>科特勒夫斯基</text>
+      <text class='time'>2017-08-09</text>
+    </view>
+    <view class='content'>
+      牛博士钙片来源于新西兰奶源地牛博士钙片来源于新西兰奶源地牛博士钙片来源于新西兰奶源地牛博士钙片来源于新西兰奶源地牛博士钙片来源于新西兰奶源地牛博士钙片来源于新西兰奶源地
+    </view>
+  </view>
+</view>
+<view class='seeall'>查看全部评论</view>
+<view class='comment'>
+  <view class='line'></view>
+  <view class='proCom'>商品评论</view>
+  <view class='line' style='margin-left: 26rpx;'></view>
+</view>
+<image src='{{thumb}}' class='bottom'></image>
+
+
+<view style='width:100%;height:118rpx;'></view>
+<view class='fixBottom'>
+  <view class='left' bindtap='home'>
+    <image src='/images/un-select@2x.png'></image>
+    <text>首页</text>
+  </view>
+  <view class='center'>
+    分享
+  </view>
+  <view class='right'>
+    立即购买
+  </view>
+</view>

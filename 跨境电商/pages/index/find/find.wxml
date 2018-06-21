@@ -1,0 +1,21 @@
+<view class='detail'>
+  <image src="{{banner[0]}}" class='left1'></image>
+  <view class='right1'>
+    <view class='name1'>互联网产品设计规范互联网产品设计规范互联网产品设计规范</view>
+    <view class='price1'>李速达</view>
+  </view>
+</view>
+<view class='detail'>
+  <image src="{{banner[0]}}" class='left1'></image>
+  <view class='right1'>
+    <view class='name1'>互联网产品设计规范互联网产品设计规范互联网产品设计规范</view>
+    <view class='price1'>李速达</view>
+  </view>
+</view>
+<view class='detail'>
+  <image src="{{banner[0]}}" class='left1'></image>
+  <view class='right1'>
+    <view class='name1'>互联网产品设计规范互联网产品设计规范互联网产品设计规范</view>
+    <view class='price1'>李速达</view>
+  </view>
+</view>
